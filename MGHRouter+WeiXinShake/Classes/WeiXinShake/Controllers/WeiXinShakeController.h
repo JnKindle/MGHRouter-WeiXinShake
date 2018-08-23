@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WeiXinShakeController.h
 //  MGHRouter+WeiXinShake
 //
 //  Created by Jn_Kindle on 2018/8/23.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface WeiXinShakeController : UIViewController
 
 @end
-

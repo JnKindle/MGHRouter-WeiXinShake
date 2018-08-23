@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D79494B6212E5EAC00D29F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494B5212E5EAC00D29F7F /* AppDelegate.m */; };
-		D79494B9212E5EAC00D29F7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494B8212E5EAC00D29F7F /* ViewController.m */; };
 		D79494BC212E5EAC00D29F7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79494BA212E5EAC00D29F7F /* Main.storyboard */; };
-		D79494BE212E5EAE00D29F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79494BD212E5EAE00D29F7F /* Assets.xcassets */; };
 		D79494C1212E5EAE00D29F7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79494BF212E5EAE00D29F7F /* LaunchScreen.storyboard */; };
-		D79494C4212E5EAF00D29F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494C3212E5EAF00D29F7F /* main.m */; };
 		D79494CE212E5EAF00D29F7F /* MGHRouter_WeiXinShakeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494CD212E5EAF00D29F7F /* MGHRouter_WeiXinShakeTests.m */; };
 		D79494D9212E5EAF00D29F7F /* MGHRouter_WeiXinShakeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494D8212E5EAF00D29F7F /* MGHRouter_WeiXinShakeUITests.m */; };
+		D79494F6212E654900D29F7F /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494ED212E654900D29F7F /* MGJRouter.m */; };
+		D79494F7212E654900D29F7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494F1212E654900D29F7F /* AppDelegate.m */; };
+		D79494F8212E654900D29F7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79494F3212E654900D29F7F /* Assets.xcassets */; };
+		D79494F9212E654900D29F7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494F4212E654900D29F7F /* main.m */; };
+		D79494FA212E654900D29F7F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D79494F5212E654900D29F7F /* Info.plist */; };
+		D79494FE212E65C000D29F7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79494FD212E65C000D29F7F /* MainViewController.m */; };
+		D7949507212E662E00D29F7F /* WeiXinShakeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7949505212E662E00D29F7F /* WeiXinShakeController.m */; };
+		D794950A212E669C00D29F7F /* CALayer+WeiXinShake.m in Sources */ = {isa = PBXBuildFile; fileRef = D7949509212E669C00D29F7F /* CALayer+WeiXinShake.m */; };
+		D794950D212E895700D29F7F /* ShakeView.m in Sources */ = {isa = PBXBuildFile; fileRef = D794950C212E895700D29F7F /* ShakeView.m */; };
+		D7949511212E8E6200D29F7F /* GlobalFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = D7949510212E8E6100D29F7F /* GlobalFunction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +42,32 @@
 
 /* Begin PBXFileReference section */
 		D79494B1212E5EAC00D29F7F /* MGHRouter+WeiXinShake.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MGHRouter+WeiXinShake.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D79494B4212E5EAC00D29F7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D79494B5212E5EAC00D29F7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D79494B7212E5EAC00D29F7F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D79494B8212E5EAC00D29F7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D79494BB212E5EAC00D29F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D79494BD212E5EAE00D29F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79494C0212E5EAE00D29F7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D79494C2212E5EAF00D29F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79494C3212E5EAF00D29F7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D79494C9212E5EAF00D29F7F /* MGHRouter+WeiXinShakeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MGHRouter+WeiXinShakeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79494CD212E5EAF00D29F7F /* MGHRouter_WeiXinShakeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGHRouter_WeiXinShakeTests.m; sourceTree = "<group>"; };
 		D79494CF212E5EAF00D29F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79494D4212E5EAF00D29F7F /* MGHRouter+WeiXinShakeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MGHRouter+WeiXinShakeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79494D8212E5EAF00D29F7F /* MGHRouter_WeiXinShakeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGHRouter_WeiXinShakeUITests.m; sourceTree = "<group>"; };
 		D79494DA212E5EAF00D29F7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79494EC212E654900D29F7F /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		D79494ED212E654900D29F7F /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		D79494F0212E654900D29F7F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D79494F1212E654900D29F7F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D79494F3212E654900D29F7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D79494F4212E654900D29F7F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D79494F5212E654900D29F7F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D79494FC212E65C000D29F7F /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		D79494FD212E65C000D29F7F /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		D7949505212E662E00D29F7F /* WeiXinShakeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeiXinShakeController.m; sourceTree = "<group>"; };
+		D7949506212E662E00D29F7F /* WeiXinShakeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeiXinShakeController.h; sourceTree = "<group>"; };
+		D7949508212E669C00D29F7F /* CALayer+WeiXinShake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+WeiXinShake.h"; sourceTree = "<group>"; };
+		D7949509212E669C00D29F7F /* CALayer+WeiXinShake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+WeiXinShake.m"; sourceTree = "<group>"; };
+		D794950B212E895700D29F7F /* ShakeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShakeView.h; sourceTree = "<group>"; };
+		D794950C212E895700D29F7F /* ShakeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShakeView.m; sourceTree = "<group>"; };
+		D794950F212E8E6100D29F7F /* GlobalFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalFunction.h; sourceTree = "<group>"; };
+		D7949510212E8E6100D29F7F /* GlobalFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlobalFunction.m; sourceTree = "<group>"; };
+		D7949512212E8E7600D29F7F /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +118,8 @@
 		D79494B3212E5EAC00D29F7F /* MGHRouter+WeiXinShake */ = {
 			isa = PBXGroup;
 			children = (
-				D79494B4212E5EAC00D29F7F /* AppDelegate.h */,
-				D79494B5212E5EAC00D29F7F /* AppDelegate.m */,
-				D79494B7212E5EAC00D29F7F /* ViewController.h */,
-				D79494B8212E5EAC00D29F7F /* ViewController.m */,
-				D79494BA212E5EAC00D29F7F /* Main.storyboard */,
-				D79494BD212E5EAE00D29F7F /* Assets.xcassets */,
-				D79494BF212E5EAE00D29F7F /* LaunchScreen.storyboard */,
-				D79494C2212E5EAF00D29F7F /* Info.plist */,
-				D79494C3212E5EAF00D29F7F /* main.m */,
+				D79494EA212E654900D29F7F /* Classes */,
+				D79494F2212E654900D29F7F /* Others */,
 			);
 			path = "MGHRouter+WeiXinShake";
 			sourceTree = "<group>";
@@ -130,6 +140,104 @@
 				D79494DA212E5EAF00D29F7F /* Info.plist */,
 			);
 			path = "MGHRouter+WeiXinShakeUITests";
+			sourceTree = "<group>";
+		};
+		D79494EA212E654900D29F7F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D794950E212E8E6100D29F7F /* Global */,
+				D79494EF212E654900D29F7F /* AppDelegate */,
+				D79494EB212E654900D29F7F /* MGJRouter */,
+				D79494EE212E654900D29F7F /* WeiXinShake */,
+				D79494FB212E65A200D29F7F /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D79494EB212E654900D29F7F /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				D79494EC212E654900D29F7F /* MGJRouter.h */,
+				D79494ED212E654900D29F7F /* MGJRouter.m */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
+		D79494EE212E654900D29F7F /* WeiXinShake */ = {
+			isa = PBXGroup;
+			children = (
+				D7949503212E662E00D29F7F /* Base */,
+				D7949504212E662E00D29F7F /* Controllers */,
+				D7949502212E662E00D29F7F /* Views */,
+			);
+			path = WeiXinShake;
+			sourceTree = "<group>";
+		};
+		D79494EF212E654900D29F7F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D79494F0212E654900D29F7F /* AppDelegate.h */,
+				D79494F1212E654900D29F7F /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		D79494F2212E654900D29F7F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D79494BA212E5EAC00D29F7F /* Main.storyboard */,
+				D79494BF212E5EAE00D29F7F /* LaunchScreen.storyboard */,
+				D79494F3212E654900D29F7F /* Assets.xcassets */,
+				D79494F4212E654900D29F7F /* main.m */,
+				D79494F5212E654900D29F7F /* Info.plist */,
+				D7949512212E8E7600D29F7F /* Prefix.pch */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D79494FB212E65A200D29F7F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D79494FC212E65C000D29F7F /* MainViewController.h */,
+				D79494FD212E65C000D29F7F /* MainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D7949502212E662E00D29F7F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D794950B212E895700D29F7F /* ShakeView.h */,
+				D794950C212E895700D29F7F /* ShakeView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7949503212E662E00D29F7F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D7949508212E669C00D29F7F /* CALayer+WeiXinShake.h */,
+				D7949509212E669C00D29F7F /* CALayer+WeiXinShake.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D7949504212E662E00D29F7F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7949506212E662E00D29F7F /* WeiXinShakeController.h */,
+				D7949505212E662E00D29F7F /* WeiXinShakeController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D794950E212E8E6100D29F7F /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				D794950F212E8E6100D29F7F /* GlobalFunction.h */,
+				D7949510212E8E6100D29F7F /* GlobalFunction.m */,
+			);
+			path = Global;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +343,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D79494FA212E654900D29F7F /* Info.plist in Resources */,
 				D79494C1212E5EAE00D29F7F /* LaunchScreen.storyboard in Resources */,
-				D79494BE212E5EAE00D29F7F /* Assets.xcassets in Resources */,
+				D79494F8212E654900D29F7F /* Assets.xcassets in Resources */,
 				D79494BC212E5EAC00D29F7F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +371,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79494B9212E5EAC00D29F7F /* ViewController.m in Sources */,
-				D79494C4212E5EAF00D29F7F /* main.m in Sources */,
-				D79494B6212E5EAC00D29F7F /* AppDelegate.m in Sources */,
+				D79494F6212E654900D29F7F /* MGJRouter.m in Sources */,
+				D7949507212E662E00D29F7F /* WeiXinShakeController.m in Sources */,
+				D7949511212E8E6200D29F7F /* GlobalFunction.m in Sources */,
+				D794950A212E669C00D29F7F /* CALayer+WeiXinShake.m in Sources */,
+				D79494F9212E654900D29F7F /* main.m in Sources */,
+				D79494F7212E654900D29F7F /* AppDelegate.m in Sources */,
+				D79494FE212E65C000D29F7F /* MainViewController.m in Sources */,
+				D794950D212E895700D29F7F /* ShakeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,12 +549,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
-				INFOPLIST_FILE = "MGHRouter+WeiXinShake/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MGHRouter+WeiXinShake/Others/Prefix.pch";
+				INFOPLIST_FILE = "MGHRouter+WeiXinShake/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hdos.MGHRouter-WeiXinShake";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.JnKindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,12 +568,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9T6M24N5BR;
-				INFOPLIST_FILE = "MGHRouter+WeiXinShake/Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MGHRouter+WeiXinShake/Others/Prefix.pch";
+				INFOPLIST_FILE = "MGHRouter+WeiXinShake/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.hdos.MGHRouter-WeiXinShake";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hdos.JnKindle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
